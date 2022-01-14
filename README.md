@@ -1,1 +1,8 @@
-# module-11
+# installation
+```
+npm install
+```
+# run parallel tests
+```
+npm test -- --tags "@smoke" (@cart, @navigation)
+```
