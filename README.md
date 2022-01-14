@@ -2,7 +2,7 @@
 ```
 npm install
 ```
-# run parallel tests
+# run tests
 ```
 npm test -- --tags "@smoke" (@cart, @navigation)
 ```
