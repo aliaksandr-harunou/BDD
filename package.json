@@ -21,8 +21,9 @@
   },
   "homepage": "https://github.com/aliaksandr-harunou/module-11#readme",
   "dependencies": {
+    "@cucumber/cucumber": "^7.3.2",
+    "@cucumber/pretty-formatter": "^1.0.0-alpha.1",
     "chai": "^4.3.4",
-    "cucumber": "^7.0.0-rc.0",
     "cucumber-html-reporter": "^5.5.0",
     "protractor": "^7.0.0",
     "protractor-cucumber-framework": "^8.2.9",

@@ -1,7 +1,7 @@
-const HomePage = require("./home_page/home_page");
-const CartPage = require("./cart_page/cart_page");
-const BasePage = require("./base_page/base_page");
-const PizzaPage = require("./pizza_page/pizza_page");
+const HomePage = require("./homePage/homePage");
+const CartPage = require("./cartPage/cartPage");
+const BasePage = require("./basePage/basePage");
+const PizzaPage = require("./pizzaPage/pizzaPage");
 
 
 class PageFactory {

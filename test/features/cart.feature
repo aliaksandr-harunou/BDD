@@ -13,7 +13,7 @@ Scenario: First pizza should be deleted from the cart
     When I choose "самовывоз" delivery mode
     When I wait until addresses are visible
     When I choose "Революционная, 17" address
-    When I wait 3 seconds
+    When I wait 1 seconds
     When I wait until "Ранч пицца" is visible
     When I select "Ранч пицца"
     When I wait until pizza sizes are visible

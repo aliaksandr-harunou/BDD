@@ -26,15 +26,15 @@ exports.config = {
     directConnect: true,
     cucumberOpts: {
         require:['../step_definitions/*.js'],
-        format: ['json:../reports/report.json'],
+        format: ['json:../reports/report.json', '../../node_modules/@cucumber/pretty-formatter'],
         tags: yargs.tags || '@smoke'
     },
     onPrepare: () => {
         browser.waitForAngularEnabled(false);
-        return browser.manage().window().maximize();
+        browser.manage().window().maximize();
     },
 
     afterLaunch: () => {
-        return reporter.generate(reporterOptions);
+        reporter.generate(reporterOptions);
     }
 };
