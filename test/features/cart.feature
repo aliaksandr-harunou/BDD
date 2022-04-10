@@ -26,4 +26,3 @@ Scenario: First pizza should be deleted from the cart
     When I delete first pizza from the cart
     And I wait 1 seconds
     Then Count of selected pizza should be equal to 1
-    And I wait 1 seconds
